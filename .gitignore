@@ -5,6 +5,8 @@
 /vendor
 .env
 .env.backup
+.scannerwork
+sonar-scanner.properties
 .phpunit.result.cache
 docker-compose.override.yml
 Homestead.json

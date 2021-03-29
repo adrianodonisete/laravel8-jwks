@@ -40,5 +40,6 @@ https://manage.auth0.com/dashboard/us/dev-4-6mu9a8/apis/605f77f81e2a0d003eb1b7d4
 
 
 
-
-"barryvdh/laravel-cors": "^0.11.0",
+user jwks na AWS
+https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pool-as-user-directory.html
+https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-configuring-app-integration.html

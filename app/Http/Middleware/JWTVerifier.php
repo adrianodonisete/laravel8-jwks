@@ -10,24 +10,12 @@ use Closure;
 class JWTVerifier
 {
     protected $userRepository;
-
-    /**
-     * CheckJWT constructor.
-     *
-     * @param Auth0UserRepository $userRepository
-     */
+    
     public function __construct(Auth0UserRepository $userRepository)
     {
         $this->userRepository = $userRepository;
     }
 
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
-     * @return mixed
-     */
     public function handle($request, Closure $next)
     {
         $auth0 = \App::make('auth0');
